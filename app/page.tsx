@@ -28,7 +28,6 @@ export default async function Home() {
       <RenderBuilderContent
         content={undefined}
         model="page"
-        data={builderData}
       />
     );
   } catch (error) {
