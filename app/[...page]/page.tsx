@@ -30,7 +30,6 @@ export default async function DynamicPage() {
       <RenderBuilderContent
         content={undefined}
         model="page"
-        data={builderData}
       />
     );
   } catch (error) {
